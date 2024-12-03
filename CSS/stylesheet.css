@@ -388,7 +388,6 @@ font-size: x-large;
     width: 30%;
     float: left;
     position: relative;
-  
 }
 
 .pricing:after{
@@ -514,14 +513,26 @@ margin-top: 200px;
     margin-bottom: 200px;
 }
 
-.img{
-    background-image: url(../Images/Founder.jpg);
+.img,.img2,.img3{
     width: 250px;
     height: 250px;
     background-position: center;
     background-size: cover;
     margin: auto;
     position: relative;
+}
+.img{
+    background-image: url(../Images/Founder.jpg);
+
+}
+.img1{
+    background-image: url(../Images/pexels-cottonbro-6532126.jpg);
+
+}
+.img2{
+    background-image: url(../Images/pexels-khezez-27015106.jpg);
+
+
 }
 .team-content{
     overflow: auto;
@@ -605,14 +616,25 @@ margin-top: 200px;
     text-align: center;
     color: #795757;
 }
-.new-img{
+.news-img{
     width: 250px;
     height: 250px;
-    background-image: url(../Images/Founder.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
     margin: auto;
+}
+.news-img1{
+    background-image: url(../Images/Founder.jpg);
+
+}
+.news-img2{
+    background-image: url(../Images/pexels-cottonbro-6532126.jpg);
+
+}
+.news-img3{
+    background-image: url(../Images/pexels-khezez-27015106.jpg);
+
 }
 .new-img-content h3{
 display: inline-block;
